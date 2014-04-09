@@ -3,28 +3,14 @@ module SimpleCrontab
     attr_reader :entries, :persisted
 
     def initialize(path = nil)
-      load_crontab unless path.nil?
+      load unless path.nil?
     end
 
-    def list
+    def load
 
     end
 
     def save
-
-    end
-
-    def delete
-
-    end
-
-    private
-
-    def load_crontab
-
-    end
-
-    def save_crontab
 
     end
   end

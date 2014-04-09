@@ -1,0 +1,20 @@
+# Edit this file to introduce tasks to be run by cron.
+# ...
+
+# some previous entry
+2 1 * * * wget http://some_website.tld/?do_cron=1 >> /dev/null
+
+### simple_crontab entries begin ###
+
+### simple_crontab entry name_1 begin ###
+3 2 * * *   wget http://some_website_2.tld/?do_cron=1 >> /dev/null
+### simple_crontab entry name_1 end ###
+
+### simple_crontab entry name_2 begin ###
+4 3 * * *   wget http://some_website_3.tld/?do_cron=1 >> /dev/null
+### simple_crontab entry name_2 end ###
+
+### simple_crontab entries end ###
+
+# some folowing entry
+59 23 * * * wget http://some_website_99.tld/?do_cron=1 >> /dev/null
