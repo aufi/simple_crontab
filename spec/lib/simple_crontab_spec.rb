@@ -1,8 +1,8 @@
 require 'spec_helper.rb'
 
-describe SimpleCrontab::SimpleCrontab do
+describe SimpleCrontab::Crontab do
 
-  subject { SimpleCrontab::SimpleCrontab.new }
+  subject { SimpleCrontab::Crontab.new }
 
   describe 'can instantiate and respond to basic methods' do
 

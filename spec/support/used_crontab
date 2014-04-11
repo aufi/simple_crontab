@@ -1,11 +1,8 @@
-
-
 ### simple_crontab entries begin ###
-
-### simple_crontab entry name_1 begin ###
-### simple_crontab entry name_1 end ###
-
-### simple_crontab entry name_2 begin ###
-### simple_crontab entry name_2 end ###
-
+## entry begin: name_1
+1 1 * * *   wget http://some_website_01.tld/?do_cron=1 >> /dev/null
+## entry end
+## entry begin: name_2
+2 2 * * *   wget http://some_website_02.tld/?do_cron=1 >> /dev/null
+## entry end
 ### simple_crontab entries end ###
